@@ -55,7 +55,10 @@ public class BaseController {
 
 		return "redirect:home";
 	}
-
+	
+	public void dd() {
+		 System.err.println("eeed");
+	 }
 	/**
 	 * 管理员登陆
 	 * 
